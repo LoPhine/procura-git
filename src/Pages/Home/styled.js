@@ -30,11 +30,11 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-    heigth: 1.5rem;
+    height: 1.5rem;
     border: 1px solid #000;
-    backgroud: #000;
+    background: #000;
     color: #fff;
-    border-radius: 0 .25rem .25 rem 0;
+    border-radius: 0 .25rem .25rem 0;
 
 `
 

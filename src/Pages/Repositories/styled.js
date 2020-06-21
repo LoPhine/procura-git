@@ -33,7 +33,7 @@ export const LinkHome = styled(Link)`
     width: 4rem;
     text-align: center;
     margin: 2rem auto;
-    backgroud-color: #333;
+    background-color: #333;
     padding: .5rem 0;
     color: #fff;
     text-decoration: none;

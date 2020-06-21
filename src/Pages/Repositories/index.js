@@ -9,7 +9,7 @@ export default function Repositories(){
 
     useEffect(() => {
         let repositoriesName = localStorage.getItem('repositoriesName');
-        if(respositoriesName != null){
+        if(repositoriesName != null){
             repositoriesName = JSON.parse(repositoriesName);
             setRepositories(repositoriesName);
             localStorage.clear();
@@ -17,13 +17,14 @@ export default function Repositories(){
             history.push('/')
         }
     }, []);
+   
     return(
     <S.Container>
         <S.Title> Repositórios </S.Title>
         <S.List>
            { repositories.map(repository => {
                return (
-                   <S.ListItem>Repositório: { repository }</S.ListItem>
+                   <S.ListItem> { repository } </S.ListItem>
                )
            }) }
         </S.List>
